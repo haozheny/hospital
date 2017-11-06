@@ -1,0 +1,95 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<!--(必需)css-bootstrap-->
+<link rel="stylesheet" href="/Hospital/Public/libs/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+<!--css-this-->
+<link rel="stylesheet" href="/Hospital/Public/libs/css/Home/Register/register.css">
+<body>
+    <p>BBC医院挂号系统</p>
+
+    <form id="register_container">
+        <table>
+            <tr>
+                <td class="td1">用户名</td>
+                <td class="td2">
+                    <input  class="text_frame_input" class="username" type="text">
+                </td>
+                <td class="td3">请输入正确的用户名</td>
+            </tr>
+            <tr id="password">
+                <td class="td1">密 码 </td>
+                <td class="td2">
+                    <input class="text_frame_input" class="password" type="text">
+                </td>
+                <td class="td3">请输入6-10位的密码</td>
+            </tr>
+            <tr id="passwordrepetition">
+                <td class="td1">确认密码</td>
+                <td class="td2">
+                    <input class="text_frame_input"
+                           class="passwordrepetition" type="text">
+                </td>
+                <td class="td3">两次密码输入不一致</td>
+            </tr>
+            <tr id="name">
+                <td class="td1">姓 名 </td>
+                <td class="td2">
+                    <input class="text_frame_input" class="name" type="text">
+                </td>
+                <td class="td3">请输入姓名</td>
+            </tr>
+            <tr id="sex">
+                <td class="td1">性 别 </td>
+                <td class="td2">
+                    <input name="gender" checked type="radio" />男
+                    <input name="gender" type="radio" />女
+                </td>
+                <td class="td3"></td>
+            </tr>
+            <tr id="idnumber">
+                <td class="td1">身份证号</td>
+                <td class="td2">
+                    <input class="text_frame_input" class="idnumber" type="text">
+                </td>
+                <td class="td3">请输入正确的身份证号</td>
+            </tr>
+            <tr id="phonenumber">
+                <td class="td1">联系方式</td>
+                <td class="td2">
+                    <input class="text_frame_input" class="phonenumber" type="text">
+                </td>
+                <td class="td3">请输入正确的手机号码</td>
+            </tr>
+
+            <tr id="profile">
+                <td class="td1">简 介 </td>
+                <td class="td2">
+                    <input id="text_profile_input" class="text_frame_input"
+                           class="profile" type="text">
+                </td>
+                <td class="td3"></td>
+            </tr>
+
+            <tr id="register_submit">
+                <td class="td1"></td>
+                <td class="td2">
+                    <input id="register_submit_input" type="submit" value="注册">
+                </td>
+                <td class="td3"></td>
+            </tr>
+        </table>
+    </form>
+
+    <div id="bg_test" style="height: 100px;width: 100%;"></div>
+</body>
+
+<!--(必需)js-jquery-->
+<script src="/Hospital/Public/libs/js/jquery-2.2.4.min.js"></script>
+<!--(必需)js-bootstrap-->
+<script src="/Hospital/Public/libs/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/haozheny/hospital.git
+git push -u origin master
+
+
+$ git config --global user.name "haozheny"
+$ git config --global user.email 530470276@qq.com

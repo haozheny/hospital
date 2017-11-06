@@ -1,0 +1,71 @@
+body{
+    background-image:url("../../../.././picture/login_background.jpg")
+}
+/*大桌面 */
+#bg_test{
+    background-color: purple;
+}
+/*标头*/
+p{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+/*登陆容器*/
+#login_container{
+    width: 300px;
+    height: 300px;
+    margin: 120px auto;
+    background-image:url("../../../.././picture/login_background_little.jpg");
+    text-align: center;
+}
+/*5个小控件样式*/
+h3{
+    margin-left: -180px;
+}
+.text_frame_input{
+    border-bottom-color:#5e5e5e;
+    width: 150px;
+    height: 38px;
+    border-radius:7px;
+    background-color: #cccccc;
+}
+#login_submit_input{
+    border: 3px solid #5e5e5e;
+    height: 38px;
+    width: 88px;
+    border-radius:7px;
+    background-color:#cccccc;
+}
+a{
+}
+
+/*平板*/
+@media only screen and (max-width: 992px) {
+    #bg_test{
+        background-color: pink;
+    }
+    /*表头*/
+    p{
+        font-size: 40px;
+    }
+    /*登陆容器*/
+    #login-container{
+        width: 750px;
+    }
+}
+/*手机*/
+@media only screen and (max-width: 768px) {
+    #bg_test{
+        background-color: blue;
+    }
+    /*表头*/
+    p{
+        margin-top: 110px;
+        font-size: 25px;
+    }
+    /*登陆容器*/
+    #login-container{
+        width: 99%;
+    }
+}

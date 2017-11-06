@@ -1,0 +1,31 @@
+[ 2017-11-01T12:40:47+08:00 ] ::1 /Hospital/index.php/Hos/Department/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+ERR: 无法加载控制器:Department
+
+[ 2017-11-01T12:41:12+08:00 ] ::1 /Hospital/index.php/Hos/Department/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::assign(), called in D:\Xampp\xampp\htdocs\Hospital\Application\Hos\Controller\DepartmentController.class.php on line 9 and defined D:\Xampp\xampp\htdocs\Hospital\ThinkPHP\Library\Think\Controller.class.php 第 121 行.
+NOTIC: [8] Undefined variable: name D:\Xampp\xampp\htdocs\Hospital\ThinkPHP\Library\Think\Controller.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+

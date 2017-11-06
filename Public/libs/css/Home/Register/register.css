@@ -1,0 +1,105 @@
+body{
+     background-image:url("../../../.././picture/login_background.jpg")
+ }
+/*大桌面*/
+#bg_test{
+    background-color: purple;
+}
+/*标头*/
+p{
+    margin-top: 65px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+#register_container{
+    width: 750px;
+    height: 550px;
+    margin:20px auto;
+    background-image:url("../../../.././picture/login_background_little.jpg");
+    text-align: center;
+}
+
+/*文本框和简介框*/
+.text_frame_input{
+    border-bottom-color:#5e5e5e;
+    width: 200px;
+    height: 38px;
+    border-radius:7px;
+    background-color: #cccccc;
+}
+tr{
+    height: 50px;
+}
+.td1{
+    width: 150px;
+    font-size: 20px;
+}
+.td2{
+    width: 410px;
+}
+.td3{
+    width: 180px;
+    font-size: 16px;
+    color: red;
+}
+
+#text_profile_input{
+    width: 250px;
+    height: 100px;
+}
+#register_submit_input{
+    margin-top: 30px;
+    border: 3px solid #5e5e5e;
+    height: 38px;
+    width: 88px;
+    border-radius:7px;
+    background-color:#cccccc;
+}
+
+/*平板*/
+@media only screen and (max-width: 992px){
+    #bg_test{
+        background-color: pink;
+    }
+    /*标头*/
+    p{
+        font-size: 40px;
+    }
+}
+/*手机*/
+
+@media only screen and (max-width: 768px){
+    #bg_test{
+        background-color: blue;
+    }
+    /*标头*/
+    p{
+        margin-top: 88px;
+        font-size: 25px;
+    }
+
+    #register_container{
+        width: 345px;
+    }
+    .text_frame_input{
+        width: 100px;
+    }
+    tr{
+        height: 42px;
+    }
+    .td1{
+        width: 100px;
+        font-size: 14px;
+    }
+    .td2{
+        width: 120px;
+    }
+    .td3{
+        width: 80px;
+        font-size: 11px;
+    }
+    #text_profile_input{
+        width: 140px;
+        height: 100px;
+    }
+}

@@ -42,7 +42,7 @@
                 </td>
                 <td class="td3">请输入姓名</td>
             </tr>
-            <tr id="sex">
+            <tr id="gender">
                 <td class="td1">性 别 </td>
                 <td class="td2">
                     <input name="gender" checked type="radio" />男
@@ -57,10 +57,10 @@
                 </td>
                 <td class="td3">请输入正确的身份证号</td>
             </tr>
-            <tr id="phonenumber">
+            <tr id="phone">
                 <td class="td1">联系方式</td>
                 <td class="td2">
-                    <input class="text_frame_input" class="phonenumber" type="text">
+                    <input class="text_frame_input" class="phone" type="text">
                 </td>
                 <td class="td3">请输入正确的手机号码</td>
             </tr>
@@ -71,13 +71,16 @@
                     <input id="text_profile_input" class="text_frame_input"
                            class="profile" type="text">
                 </td>
-                <td class="td3"></td>
+                <td class="td3">请输入简介</td>
             </tr>
 
             <tr id="register_submit">
                 <td class="td1"></td>
                 <td class="td2">
-                    <input id="register_submit_input" type="submit" value="注册">
+                    <input class="register_submit_input" type="submit"
+                           value="注册">
+                    <input class="register_submit_input" type="submit"
+                           value="返回">
                 </td>
                 <td class="td3"></td>
             </tr>
